@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+  },
+  "dependencies": {
+    "vercel": "^21.2.3"
+  }
+}
