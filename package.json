@@ -3,6 +3,10 @@
     "build": "echo 'build is a noop'"
   },
   "dependencies": {
-    "vercel": "^21.2.3"
+    "vercel": "^21.2.3",
+    "wordpos": "^2.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.9.1"
   }
 }
