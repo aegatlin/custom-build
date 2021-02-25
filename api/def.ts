@@ -9,7 +9,7 @@ const isBadOrigin = (req: NowRequest): boolean => {
 
 export default async function (req: NowRequest, res: NowResponse) {
   if (isBadOrigin(req)) {
-    res.status(400)
+    res.status(400).end('Error: Bad Origin')
     return
   }
 
