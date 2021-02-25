@@ -1,4 +1,18 @@
 {
+  "name": "marmee",
+  "description": "Marmee is a simple dictionary API built on top of [wordpos](https://github.com/moos/wordpos).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegatlin/marmee.git"
+  },
+  "author": "Austin Gatlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aegatlin/marmee/issues"
+  },
+  "homepage": "https://github.com/aegatlin/marmee#readme",
   "scripts": {
     "build": "echo 'build is a noop'"
   },
