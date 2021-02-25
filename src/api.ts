@@ -1,5 +1,9 @@
-async function getDefs() {
-  return 'hey'
-}
+import * as WordPOS from 'wordpos'
+import { FullDef } from './types'
 
-module.exports = { getDefs }
+const wordpos = new WordPOS()
+
+export async function getFullDef(word): Promise<FullDef> {
+  const defs = await wordpos.lookup(word).map(r => r.def)
+  return { word, defs }
+}
